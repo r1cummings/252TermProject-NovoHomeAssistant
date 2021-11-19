@@ -1,0 +1,317 @@
+version: "2.0"
+stories:
+# - story: greet and subscribe
+#   steps:
+#   - intent: greet
+#   - action: utter_greet
+#   - intent: subscribe
+#   - action: newsletter_form
+#   - active_loop: newsletter_form
+- story: Story from Conversation ID a46b37c1e942499fbe9ce3cb20ba9402
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: robot_joke
+  - action: utter_resp_robot_joke
+# - story: Story from Conversation ID 28746afc5beb43408e3a5ed606994f6e
+#   steps:
+#   - intent: greet
+#   - action: utter_greet
+#   - intent: robot_joke
+#   - action: utter_resp_robot_joke
+- story: Story from Conversation ID 1a3b03026ec343fb8aa177d005377e8c
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: alarm_system
+  - action: utter_resp_alarm_system
+- story: Story from Conversation ID d8b2bb23d9234353b9c89f198f79202d
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: pool
+  - action: utter_resp_pool
+- story: Story from Conversation ID 31137265a387425091c0ad07cb49776d
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: blinds_open
+  - action: utter_resp_blinds_open
+# - story: Story from Conversation ID 1216846ace52436eaeadabbe5d51ff55
+#   steps:
+#   - intent: greet
+#   - action: utter_greet
+#   - intent: robot_joke
+#   - action: utter_resp_robot_joke
+- story: Story from Conversation ID bf7938e7d00a4350a3c42b509ee5ada2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: blinds_closed
+  - action: utter_resp_blinds_close
+- story: Story from Conversation ID 7d2a56505d214af99f0baefe4a079b14
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: lights_on
+  - action: utter_resp_lights_on
+- story: Story from Conversation ID fae7ed074fef4207989bd2142f15251b
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: lights_off
+  - action: utter_resp_lights_off
+- story: Story from Conversation ID 25d428fcca3a4b409e5417e2f76ba81e
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: ac_on
+  - action: utter_resp_ac_on
+- story: Story from Conversation ID 595d4549e24749b284aa0f01492b92bf
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: ac_off
+  - action: utter_resp_ac_off
+- story: Story from Conversation ID 6a110a2c199f4e0ba2501eab6ed38b43
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: heater_on
+  - action: utter_resp_heater_on
+- story: Story from Conversation ID 11c459dc82b547f98c97ecffb2f73b32
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: heater_off
+  - action: utter_resp_heater_off
+- story: Story from Conversation ID b80183014cc047d6ac8f784e07802031
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: vacuum_on
+  - action: utter_resp_vacuum_on
+- story: Story from Conversation ID 176edd5891344103838c79ea2ad1e0c7
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: vacuum_off
+  - action: utter_resp_vacuum_off
+- story: Story from Conversation ID 5d0db70754ee49979365ed615367d5fd
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: door_lock
+  - action: utter_resp_door_lock
+- story: Story from Conversation ID 69cb5767111f40e79f09b872ae9e08d5
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: door_unlock
+  - action: utter_resp_door_unlock
+- story: Story from Conversation ID 2075ef73211b4b16810b2b4e0a4afd87
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: fan_on
+  - action: utter_resp_fan_on
+- story: Story from Conversation ID ead65ef46e134c9e88b88e56a4f3a3f3
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: fan_off
+  - action: utter_resp_fan_off
+- story: Story from Conversation ID cadffcee08834e42a704c3987c2524ab
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: weather
+  - action: utter_resp_weather
+- story: Story from Conversation ID 37f92ea0be364437ac32636a98cd1563
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: drive_time
+  - action: utter_resp_drive_time
+- story: Story from Conversation ID afa029ff65db4d2e943f396edc25b4d9
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: washer_on
+  - action: utter_resp_washer_on
+- story: Story from Conversation ID 075cbb020f7d4c30890b9b7378482036
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: washer_off
+  - action: utter_resp_washer_off
+- story: Story from Conversation ID 1f5965b1dbb14e61869b753243878173
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: dryer_on
+  - action: utter_resp_dryer_on
+- story: Story from Conversation ID 5849e7b3e77343168d2fba72b45c2d4f
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: dryer_off
+  - action: utter_resp_dryer_off
+- story: Story from Conversation ID f0b021aaca9c4fd0badc76da09aa7cb0
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: music_start
+  - action: utter_resp_music_on
+- story: Story from Conversation ID df80b09f8a494780be751422625de0fe
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: music_stop
+  - action: utter_resp_music_off
+- story: Story from Conversation ID 9e48eb2fea744477b4a8e185a108a952
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: start_tv
+  - action: utter_resp_tv_on
+- story: Story from Conversation ID 8438564f8e35442c83cb6d916c81ca4f
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: stop_tv
+  - action: utter_resp_tv_off
+- story: Story from Conversation ID 793a8be6378e46d095c10e23a39be6a6
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: crypto_miners_on
+  - action: utter_resp_miners_on
+- story: Story from Conversation ID 807a76e2cc584da9a0a84a4ca5ba3236
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: crypto_miners_off
+  - action: utter_resp_miners_off
+
+- story: Story from Conversation ID eb76be763d6c4815a785b76517bbdebe
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: feeder
+  - action: utter_resp_dog_feed
+
+# - story: interactive_story_1
+#   steps:
+#   - intent: greet
+#   - action: utter_greet
+#   - intent: subscribe
+#   - action: newsletter_form
+#   - active_loop: newsletter_form
+#   - slot_was_set:
+#     - requested_slot: email
+#   - slot_was_set:
+#     - email: test@gmail.com
+#   - slot_was_set:
+#     - requested_slot: null
+#   - active_loop: null
+#   - action: utter_subscribed
+
+
+- story: Story from Conversation ID ccd13ee41f1f442c9c21b73d8aef3ca7
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: light_color
+  - action: action_reset_all_slots
+  - action: utter_resp_ask_lights_color
+  - action: light_color_request
+  - active_loop: light_color_request
+  - slot_was_set:
+    - requested_slot: color
+  - intent: color_of_lights
+  - action: light_color_request
+  - slot_was_set:
+    - color: Red
+  - slot_was_set:
+    - requested_slot: null
+  - active_loop: null
+  - action: utter_resp_light_color_changed
+
+- story: timer_set
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: timer
+  - action: action_reset_all_slots
+  - action: utter_resp_ask_timer_minutes
+  - action: timer_request
+  - active_loop: timer_request
+  - slot_was_set:
+    - requested_slot: minutes
+  - intent: timer_minutes_user_resp
+  - action: timer_request
+  - slot_was_set:
+    - minutes: '10'
+  - slot_was_set:
+    - requested_slot: null
+  - active_loop: null
+  - action: utter_resp_timer_with_minutes
+
+
+- story: channel_set
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: change_channel_tv
+  - action: action_reset_all_slots
+  - action: utter_resp_tv_change
+  - action: tv_channel_request
+  - active_loop: tv_channel_request
+  - slot_was_set:
+    - requested_slot: channel
+  - intent: channel_user_resp
+  - action: tv_channel_request
+  - slot_was_set:
+    - channel: ESPN
+  - slot_was_set:
+    - requested_slot: null
+  - active_loop: null
+  - action: utter_resp_tv_with_channel
+
+
+- story: shopping_set
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: shopping_list
+  - action: action_reset_all_slots
+  - action: action_add_item
+  - action: utter_resp_shopping_list
+  - action: shopping_list_request
+  - active_loop: shopping_list_request
+  - slot_was_set:
+    - requested_slot: item
+  - intent: shopping_items
+  - action: shopping_list_request
+  - slot_was_set:
+    - item: Chicken
+  - slot_was_set:
+    - requested_slot: null
+  - active_loop: null
+  - action: utter_resp_shopping_list_item
+
+
+- story: story get time
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: give_time
+  - action: action_show_time
+
+- story: get shopping list
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: check_shopping_list
+  - action: action_get_shopping_list

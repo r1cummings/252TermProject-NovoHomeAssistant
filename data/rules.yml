@@ -1,0 +1,78 @@
+rules:
+
+ - rule: activate change lights form
+   steps:
+   - intent: light_color
+   - action: action_reset_all_slots
+   - action: utter_resp_ask_lights_color
+   - action: light_color_request
+   - active_loop: light_color_request
+
+ - rule: submit light color change
+   condition:
+   - active_loop: light_color_request
+   steps:
+   - action: light_color_request
+   - active_loop: null
+   - action: utter_resp_light_color_changed
+
+
+ - rule: activate timer form
+   steps:
+   - intent: timer
+   - action: action_reset_all_slots
+   - action: utter_resp_ask_timer_minutes
+   - action: timer_request
+   - active_loop: timer_request
+
+ - rule: submit timer set
+   condition:
+   - active_loop: timer_request
+   steps:
+   - action: timer_request
+   - active_loop: null
+   - action: utter_resp_timer_with_minutes
+
+
+
+
+ - rule: activate channel form
+   steps:
+   - intent: change_channel_tv
+   - action: action_reset_all_slots
+   - action: utter_resp_tv_change
+   - action: tv_channel_request
+   - active_loop: tv_channel_request
+
+ - rule: submit channel set
+   condition:
+   - active_loop: tv_channel_request
+   steps:
+   - action: tv_channel_request
+   - active_loop: null
+   - action: utter_resp_tv_with_channel
+
+
+
+
+ - rule: activate shopping list form
+   steps:
+   - intent: shopping_list
+   - action: action_reset_all_slots
+   - action: action_add_item
+   - action: utter_resp_shopping_list
+   - action: shopping_list_request
+   - active_loop: shopping_list_request
+
+ - rule: submit shopping list
+   condition:
+   - active_loop: shopping_list_request
+   steps:
+   - action: shopping_list_request
+   - active_loop: null
+   - action: utter_resp_shopping_list_item
+
+ - rule: fix get shopping
+   steps:
+    - intent: check_shopping_list
+    - action: action_get_shopping_list

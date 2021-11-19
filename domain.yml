@@ -1,0 +1,365 @@
+version: '2.0'
+config:
+  store_entities_as_slots: true
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+intents:
+- greet:
+    use_entities: true
+- inform:
+    use_entities: true
+- subscribe:
+    use_entities: true
+- robot_joke:
+    use_entities: true
+- alarm_system:
+    use_entities: true
+- pool:
+    use_entities: true
+- blinds_open:
+    use_entities: true
+- blinds_closed:
+    use_entities: true
+- lights_on:
+    use_entities: true
+- lights_off:
+    use_entities: true
+- light_color:
+    use_entities: true
+- ac_on:
+    use_entities: true
+- ac_off:
+    use_entities: true
+- heater_on:
+    use_entities: true
+- heater_off:
+    use_entities: true
+- vacuum_on:
+    use_entities: true
+- vacuum_off:
+    use_entities: true
+- door_lock:
+    use_entities: true
+- door_unlock:
+    use_entities: true
+- fan_on:
+    use_entities: true
+- fan_off:
+    use_entities: true
+- weather:
+    use_entities: true
+- drive_time:
+    use_entities: true
+- timer:
+    use_entities: true
+- washer_on:
+    use_entities: true
+- washer_off:
+    use_entities: true
+- dryer_on:
+    use_entities: true
+- dryer_off:
+    use_entities: true
+- music_start:
+    use_entities: true
+- music_stop:
+    use_entities: true
+- start_tv:
+    use_entities: true
+- stop_tv:
+    use_entities: true
+- change_channel_tv:
+    use_entities: true
+- room_message:
+    use_entities: true
+- shopping_list:
+    use_entities: true
+- check_shopping_list:
+    use_entities: true
+- crypto_miners_on:
+    use_entities: true
+- crypto_miners_off:
+    use_entities: true
+- reminder:
+    use_entities: true
+- check_reminder:
+    use_entities: true
+- feeder:
+    use_entities: true
+- calendar:
+    use_entities: true
+- color_of_lights:
+    use_entities: true
+- timer_minutes_user_resp:
+    use_entities: true
+- channel_user_resp:
+    use_entities: true
+- shopping_items:
+    use_entities: true
+- give_time:
+    use_entities: true
+entities: []
+slots:
+  email:
+    type: rasa.shared.core.slots.UnfeaturizedSlot
+    initial_value: null
+    auto_fill: true
+    influence_conversation: false
+  color:
+    type: rasa.shared.core.slots.UnfeaturizedSlot
+    initial_value: null
+    auto_fill: true
+    influence_conversation: false
+  minutes:
+    type: rasa.shared.core.slots.UnfeaturizedSlot
+    initial_value: null
+    auto_fill: true
+    influence_conversation: false
+  channel:
+    type: rasa.shared.core.slots.UnfeaturizedSlot
+    initial_value: null
+    auto_fill: true
+    influence_conversation: false
+  room:
+    type: rasa.shared.core.slots.UnfeaturizedSlot
+    initial_value: null
+    auto_fill: true
+    influence_conversation: false
+  item:
+    type: rasa.shared.core.slots.UnfeaturizedSlot
+    initial_value: null
+    auto_fill: true
+    influence_conversation: false
+  reminder:
+    type: rasa.shared.core.slots.UnfeaturizedSlot
+    initial_value: null
+    auto_fill: true
+    influence_conversation: false
+  requested_slot:
+    type: rasa.shared.core.slots.UnfeaturizedSlot
+    initial_value: null
+    auto_fill: true
+    influence_conversation: false
+responses:
+  utter_resp_robot_joke:
+  - text: |
+      Of course not! I'm definitely a human. Beep Beep Boop. Umm, sorry.
+  utter_resp_alarm_system:
+  - text: |
+      Alarm has been set!
+  - text: |
+      The house alarm is now on.
+  utter_resp_pool:
+  - text: |
+      The pool heater is now on. Please wait about 20 minutes for it to be fully warmed up!
+  utter_resp_blinds_open:
+  - text: |
+      The blinds are opening.
+  utter_resp_blinds_close:
+  - text: |
+      The blinds are closing.
+  utter_resp_lights_on:
+  - text: |
+      Turning lights on!
+  utter_resp_lights_off:
+  - text: |
+      The lights are now off.
+  utter_resp_ask_lights_color:
+  - text: |
+      What color do you want the lights to be?
+  utter_resp_light_color_changed:
+  - text: |
+      The lights are now {color}!
+  - text: |
+      You're all set! Have fun with your {color} lights!
+  utter_resp_ac_on:
+  - text: |
+      The AC is now on.
+  utter_resp_ac_off:
+  - text: |
+      The AC is now off.
+  utter_resp_heater_on:
+  - text: |
+      The heater is now on. Prepare to be toasted.
+  utter_resp_heater_off:
+  - text: |
+      The heater is now off.
+  utter_resp_vacuum_on:
+  - text: |
+      The vacuum is now running.
+  utter_resp_vacuum_off:
+  - text: |
+      The vacuum has stopped and is returning to it's charging station.
+  utter_resp_door_lock:
+  - text: |
+      The door is now locked.
+  utter_resp_door_unlock:
+  - text: |
+      The door is unlocked.
+  utter_resp_fan_on:
+  - text: |
+      The fan is now on.
+  utter_resp_fan_off:
+  - text: |
+      The fan is now off.
+  utter_resp_weather:
+  - text: |
+      The weather is starting to cool down, with a high of 65 and a low of 49.
+  utter_resp_drive_time:
+  - text: |
+      Your drive to work will take about 35 minutes, with slight traffic on Palmdale Blvd adding 3 minutes to your drive.
+  utter_resp_ask_timer_minutes:
+  - text: |
+      How long would you like me to set the timer for?
+  utter_resp_timer_with_minutes:
+  - text: |
+      The timer is now set for {minutes}!
+  - text: |
+      {minutes} and counting!
+  utter_resp_washer_on:
+  - text: |
+      The washer is now on.
+  utter_resp_washer_off:
+  - text: |
+      The washer is now off.
+  utter_resp_dryer_on:
+  - text: |
+      The dryer is now on.
+  utter_resp_dryer_off:
+  - text: |
+      The dryer is now off.
+  utter_resp_music_on:
+  - text: |
+      The radio is now on! Enjoy the grooves.
+  utter_resp_music_off:
+  - text: |
+      The radio is now off. :( 
+  utter_resp_tv_on:
+  - text: |
+      The TV is now on. Enjoy!
+  utter_resp_tv_off:
+  - text: |
+      The TV is now off.
+  utter_resp_tv_change:
+  - text: |
+      What channel would you like me to change it today?
+  utter_resp_tv_with_channel:
+  - text: |
+      The TV is now set for {channel}!
+  - text: |
+      {channel} is on!
+  utter_resp_room_message:
+  - text: |
+      Okay, which room would you like to message?
+  utter_resp_romm_message_w_room:
+  - text: |
+      Okay. I'll message {room}.
+  - text: |
+      {room} received your message!
+  utter_resp_shopping_list:
+  - text: |
+      Okay, what would you like me to add to your shopping list?
+  utter_resp_shopping_list_item:
+  - text: |
+      Okay. I'll add {item} to your list.
+  utter_resp_miners_on:
+  - text: |
+      The crypto miners are now on!
+  utter_resp_miners_off:
+  - text: |
+      The crypto miners are now off :(
+  utter_resp_reminder:
+  - text: |
+      Okay I'll set a new reminder. What would you like me to remind you to do?
+  utter_resp_reminder_w_reminder:
+  - text: |
+      Okay. I've set the reminder: {reminder}.
+  utter_resp_dog_feed:
+  - text: |
+      Okay, I'll feed the dogs. 
+  utter_greet:
+  - text: |
+      Hello! How can I help you?
+  - text: |
+      Hi! What can I do for ya?
+actions:
+- '...'
+- utter_greet
+- utter_resp_ac_off
+- utter_resp_ac_on
+- utter_resp_alarm_system
+- utter_resp_ask_lights_color
+- utter_resp_ask_timer_minutes
+- utter_resp_blinds_close
+- utter_resp_blinds_open
+- utter_resp_dog_feed
+- utter_resp_door_lock
+- utter_resp_door_unlock
+- utter_resp_drive_time
+- utter_resp_dryer_off
+- utter_resp_dryer_on
+- utter_resp_fan_off
+- utter_resp_fan_on
+- utter_resp_heater_off
+- utter_resp_heater_on
+- utter_resp_light_color_changed
+- utter_resp_lights_off
+- utter_resp_lights_on
+- utter_resp_miners_off
+- utter_resp_miners_on
+- utter_resp_music_off
+- utter_resp_music_on
+- utter_resp_pool
+- utter_resp_reminder
+- utter_resp_reminder_w_reminder
+- utter_resp_robot_joke
+- utter_resp_romm_message_w_room
+- utter_resp_room_message
+- utter_resp_shopping_list
+- utter_resp_shopping_list_item
+- utter_resp_timer_with_minutes
+- utter_resp_tv_change
+- utter_resp_tv_off
+- utter_resp_tv_on
+- utter_resp_tv_with_channel
+- utter_resp_vacuum_off
+- utter_resp_vacuum_on
+- utter_resp_washer_off
+- utter_resp_washer_on
+- utter_resp_weather
+- utter_respond_joke
+- action_show_time
+- action_add_item
+- action_get_shopping_list
+- action_reset_all_slots
+forms:
+  newsletter_form:
+    required_slots:
+      email:
+      - type: from_text
+  light_color_request:
+    required_slots:
+      color:
+      - type: from_text
+  timer_request:
+    required_slots:
+      minutes:
+      - type: from_text
+  tv_channel_request:
+    required_slots:
+      channel:
+      - type: from_text
+  romm_message_request:
+    required_slots:
+      room:
+      - type: from_text
+  shopping_list_request:
+    required_slots:
+      item:
+      - type: from_text
+  reminder_request:
+    required_slots:
+      reminder:
+      - type: from_text
+e2e_actions: []

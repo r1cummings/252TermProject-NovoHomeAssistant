@@ -1,0 +1,345 @@
+version: "2.0"
+nlu:
+- intent: greet
+  examples: |
+    - Hi!
+    - Hey!
+    - Hello
+    - Hi
+    - What's up
+    - How are you?
+    - How are you
+    - How you doing
+    - Hey
+    - Hellop
+- intent: robot_joke
+  examples: |
+    - Are you a robot?
+    - Are you a robot
+    - Are you a human
+    - robot
+    - human
+    - Are you a bot?
+    - Are you a human?
+- intent: alarm_system
+  examples: |
+    - I want to set the alarm
+    - Can you set the alarm?
+    - Can you set the alarm
+    - Turn on the alarm
+    - Can you turn on the alarm?
+    - Please set the alarm
+    - Can you turn on the alarm
+    - Set the alarm
+- intent: pool
+  examples: |
+    - Turn on the pool heater
+    - Can you turn on the pool heater?
+    - Set the pool temperature to
+    - Can you please set the pool temperature to
+    - Set the pool to
+    - Can you turn on the pool?
+    - pool on
+    - turn on the pool
+    - set the pool to 90
+- intent: blinds_open
+  examples: |
+    - Can you open the blinds?
+    - Can you open the blinds
+    - Open the blinds
+    - Please open the blinds
+- intent: blinds_closed
+  examples: |
+    - Can you close the blinds?
+    - Can you close the blinds
+    - Close the blinds
+    - Please close the blinds
+- intent: lights_on
+  examples: |
+    - I want to turn on the lights
+    - Can you turn on the lights?
+    - Can you turn on the lights
+    - Turn on the lights
+    - Please turn on the lights
+    - Lights on
+    - I want you to turn the lights on
+- intent: lights_off
+  examples: |
+    - I want to turn off the lights
+    - Can you turn off the lights?
+    - Can you turn off the lights
+    - Turn off the lights
+    - Please turn off the lights
+    - Lights off
+- intent: light_color
+  examples: |
+    - I want to change the color of the lights
+    - color of the lights
+    - please change the color of the lightsH
+    - Change the color of the lights
+- intent: ac_on
+  examples: |
+    - I want to turn on the ac
+    - Can you turn on the ac?
+    - Can you turn on the ac
+    - Turn on the ac
+    - ac on
+- intent: ac_off
+  examples: |
+    - I want to turn off the ac
+    - Can you turn off the ac?
+    - Can you turn off the ac
+    - Turn off the ac
+    - Please turn off the ac
+    - ac off
+- intent: heater_on
+  examples: |
+    - I want to turn on the heater
+    - Can you turn on the heater?
+    - Can you turn on the heater
+    - Turn on the heater
+    - Please turn on the heater
+    - heater on
+- intent: heater_off
+  examples: |
+    - I want to turn off the heater
+    - Can you turn off the heater?
+    - Can you turn off the heater
+    - Turn off the heater
+    - Please turn off the heater
+    - heater off
+- intent: vacuum_on
+  examples: |
+    - Can you start the vacuum?
+    - Can you start the vacuum
+    - start the vacuum
+    - Please start the vacuum
+    - Tell the vacuum to clean
+    - start vacuum
+    - vacuum on
+- intent: vacuum_off
+  examples: |
+    - Can you stop the vacuum?
+    - Can you stop the vacuum
+    - stop the vacuum
+    - Please stop the vacuum
+    - Tell the vacuum to go home
+    - stop vacuum
+    - vacuum off
+- intent: door_lock
+  examples: |
+    - I want to lock the door
+    - Can you lock the door?
+    - Lock the door
+    - Please lock the door
+- intent: door_unlock
+  examples: |
+    - I want to unlock the door
+    - Can you unlock the door?
+    - Unlock the door
+    - Please unlock the door
+- intent: fan_on
+  examples: |
+    - I want to turn on the fan
+    - Can you turn on the fan?
+    - Fan on
+    - Please turn on the fan
+    - Turn the fan on
+    - fan on
+    - on Fan
+    - turn fan on
+- intent: fan_off
+  examples: |
+    - I want to turn off the fan
+    - Can you turn off the fan?
+    - Fan off
+    - Please turn off the fan
+- intent: weather
+  examples: |
+    - I want to check the weather
+    - What's the weather today
+    - Check the weather
+    - weather today
+    - Please check the weather
+    - Please check the weather today
+    - What is the temperature outside?
+    - Temperature today
+- intent: drive_time
+  examples: |
+    - I want to check the traffic
+    - What's the traffic today
+    - Check the traffic
+    - traffic today
+    - Please check the traffic
+    - How long is my drive to work today?
+    - How long is the drive to work
+- intent: timer
+  examples: |
+    - Set a timer for minutes
+    - Please set a timer for minutes
+    - Timer minutes
+    - Can you set a timer for minutes?
+- intent: timer_minutes_user_resp
+  examples: |
+    - 10
+    - 5
+    - 1
+    - 2
+    - 3
+    - 15
+    - 20
+    - 30
+    - 60
+- intent: washer_on
+  examples: |
+    - Start the washer
+    - Please start the washer
+    - Can you start the washer?
+    - washer on
+    - start the washer
+    - turn the washer on 
+    - Please turn on the washer
+    - washer start
+    - start washer
+- intent: washer_off
+  examples: |
+    - Stop the washer
+    - Please stop the washer
+    - Can you stop the washer?
+    - turn the washer off.
+    - stop the washer
+    - washer stop
+    - stop washer
+- intent: dryer_on
+  examples: |
+    - Start the dryer
+    - Please start the dryer
+    - Can you start the dryer?
+    - Dryer on
+    - turn the dryer on
+    - start the dryer
+- intent: dryer_off
+  examples: |
+    - Stop the dryer
+    - Please stop the dryer
+    - Can you stop the dryer?
+    - turn the dryer off.
+    - dryer off
+    - Please turn the dryer off
+- intent: music_start
+  examples: |
+    - Start the radio
+    - Please start the radio
+    - Can you start the radio?
+    - Play music
+    - Start playing music
+    - Play relaxing music radio
+    - Turn on the radio
+    - Radio on
+- intent: music_stop
+  examples: |
+    - Stop the radio
+    - Please stop the radio
+    - Can you stop the radio?
+    - Stop the music
+    - Turn off the radio
+    - Radio off
+    - Please stop the radio
+    - Please turn off the radio
+- intent: start_tv
+  examples: |
+    - Start the tv
+    - Please start the tv
+    - Can you start the tv?
+    - Turn on the tv
+    - TV on
+    - Tv on
+- intent: stop_tv
+  examples: |
+    - Stop the tv
+    - Please stop the tv
+    - Can you stop the tv?
+    - turn off the tv
+    - please turn off the tv
+    - tv off
+    - TV off
+- intent: change_channel_tv
+  examples: |
+    - Change the channel to
+    - change the channel on the tv to
+    - Please change the channel on the tv to
+    - Change the channel to ESPN
+# - intent: room_message
+#   examples: |
+#     - Send a message to a room
+#     - Send message to a room
+#     - message room
+- intent: shopping_list
+  examples: |
+    - Add to my shopping list
+    - Please add to my shopping list
+    - Can you add to my shopping list
+    - Add to my shopping items
+    - Add to my shopping list
+- intent: check_shopping_list
+  examples: |
+    - How many items are on my shopping list
+    - How many items are on my shopping list?
+    - how many items shopping list
+    - what are the number of items on my shopping list?
+    - How many total items are on my shopping list?
+    - 
+- intent: crypto_miners_on
+  examples: |
+    - Turn on the crypto miners
+    - crypto on 
+    - miners on 
+    - Can you turn on the crypto miners
+    - crypto miners on
+- intent: crypto_miners_off
+  examples: |
+    - Turn off the crypto miners
+    - Please turn off the crypto miners
+    - Can you turn off the crypto miners?
+    - crypto off
+    - miners off
+    - crypto miners off
+
+- intent: feeder
+  examples: |
+    - Feed the dogs
+    - Please feed the dogs
+    - Can you feed the dogs
+
+- intent: color_of_lights
+  examples: |
+    - Red
+    - Blue
+    - Green
+    - Yellow
+    - Orange
+    - Purple
+    - Black
+    - White
+- intent: channel_user_resp
+  examples: |
+    - ESPN
+    - CNN
+    - Fox
+    - KTLA
+    - ABC
+    - Cartoon Network
+- intent: shopping_items
+  examples: |
+    - Apples
+    - Carrots
+    - Potato
+    - Tomato
+    - Chicken
+    - Steak
+- intent: give_time
+  examples: |
+    - What time is it
+    - Tell me the time
+    - Get the time
+    - Can you tell me what time it is

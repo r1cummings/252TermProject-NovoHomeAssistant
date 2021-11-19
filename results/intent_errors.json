@@ -1,0 +1,10 @@
+[
+  {
+    "text": "Are you a robot?",
+    "intent": "Joke",
+    "intent_prediction": {
+      "name": "subscribe",
+      "confidence": 0.9674853682518005
+    }
+  }
+]

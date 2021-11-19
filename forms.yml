@@ -1,0 +1,35 @@
+forms:
+  newsletter_form:
+    required_slots:
+      email:
+      - type: from_text
+
+  light_color_request:
+    required_slots:
+      color:
+      - type: from_text
+
+  timer_request:
+    required_slots:
+      minutes:
+      - type: from_text
+
+  tv_channel_request:
+    required_slots:
+      channel:
+      - type: from_text
+
+  romm_message_request:
+    required_slots:
+      room:
+      - type: from_text
+
+  shopping_list_request:
+    required_slots:
+      item:
+      - type: from_text
+
+  reminder_request:
+    required_slots:
+      reminder:
+      - type: from_text
