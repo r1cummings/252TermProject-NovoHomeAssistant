@@ -53,7 +53,7 @@
    **Type: `TV on`**
    Bot will respond: `The TV is now on. Enjoy!`
    **Type: `Change the channel on the tv`**
-   Bot will respond: `What channel would you like me to change it today?`
+   Bot will respond: `What channel would you like me to change it to?`
    **Type: `ESPN`**
    Bot will respond: `The TV is now set for ESPN!`
 
