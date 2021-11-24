@@ -20,7 +20,7 @@
 
 ![shopping_list_example](https://github.com/r1cummings/252TermProject-NovoHomeAssistant/blob/main/references/shopping_list_example.gif)
 
-## Suggested Story Lines:
+## Suggested Conversation Flows / Story Lines:
 - 
 
 ## List of Commands:
