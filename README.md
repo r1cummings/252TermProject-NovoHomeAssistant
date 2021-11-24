@@ -21,9 +21,47 @@
 ![shopping_list_example](https://github.com/r1cummings/252TermProject-NovoHomeAssistant/blob/main/references/shopping_list_example.gif)
 
 ## Suggested Conversation Flows / Story Lines:
-- 
+##### *Multi-Turn conversations:*
+1) **Type: `Hi`**
+   Bot will respond: `Hi! How can I help you?`
+   **Type: `Turn the lights on`**
+   Bot will respond: `Turning lights on!`
+   **Type: `Change the color of the lights`**
+   Bot will respond: `What color do you want the lights to be?`
+   **Type: `Red`**
+   Bot will respond: `The lights are now Red!`
+   
+   <br>
 
-## List of Commands:
+2) **Type: `Hi`**
+   Bot will respond: `Hi! How can I help you?`
+   **Type: `Add to my shopping list`**
+   Bot will respond: `Okay, what would you like to add to your shopping list?`
+   **Type: `Steak`**
+   Bot will respond: `Okay, I'll add Steak to your list.`
+   **Type: `How many items are on my shopping list?`**
+   Bot will respond: `There are 1 item(s) on your shopping list.`
+   **Type: `Add to my shopping list`**
+   Bot will respond: `Okay, what would you like to add to your shopping list?`
+   **Type: `Chicken`**
+   Bot will respond: `Okay, I'll add Chicken to your list.`
+   **Type: `How many items are on my shopping list?`**
+   Bot will respond: `There are 2 item(s) on your shopping list.`
+    <br>
+3) **Type: `Hi`**
+   Bot will respond: `Hi! How can I help you?`
+   **Type: `TV on`**
+   Bot will respond: `The TV is now on. Enjoy!`
+   **Type: `Change the channel on the tv`**
+   Bot will respond: `What channel would you like me to change it today?`
+   **Type: `ESPN`**
+   Bot will respond: `The TV is now set for ESPN!`
+
+
+
+
+
+## Full List of Commands: 
 ###### *Ellipsis(...) here is representing phrases that are along the lines of what is being shown.*
 ###### *Multi turn conversations are marked with an exclamation (:exclamation: )*
 
