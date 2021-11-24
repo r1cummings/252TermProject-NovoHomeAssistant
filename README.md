@@ -11,12 +11,12 @@
 
 
 ## Short Demo: :link:
-##### 1) Changing the color of the lights:
+#### 1) Changing the color of the lights:
 
 
 ![change_lights_example](https://github.com/r1cummings/252TermProject-NovoHomeAssistant/blob/main/references/change_lights_example.gif)
 
-##### 2) Adding to your shopping list:
+#### 2) Adding to your shopping list:
 
 ![shopping_list_example](https://github.com/r1cummings/252TermProject-NovoHomeAssistant/blob/main/references/shopping_list_example.gif)
 
