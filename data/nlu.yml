@@ -63,6 +63,8 @@ nlu:
     - Please turn on the lights
     - Lights on
     - I want you to turn the lights on
+    - lights on
+    - on lights
 - intent: lights_off
   examples: |
     - I want to turn off the lights
@@ -71,10 +73,15 @@ nlu:
     - Turn off the lights
     - Please turn off the lights
     - Lights off
+    - lights off
+    - off lights
 - intent: light_color
   examples: |
     - I want to change the color of the lights
     - color of the lights
+    - change the color of the lights
+    - change lights 
+    - light color
     - please change the color of the lightsH
     - Change the color of the lights
 - intent: ac_on
@@ -132,12 +139,17 @@ nlu:
     - Can you lock the door?
     - Lock the door
     - Please lock the door
+    - lock the door
+    - door lock 
+    - lock door 
 - intent: door_unlock
   examples: |
     - I want to unlock the door
     - Can you unlock the door?
     - Unlock the door
     - Please unlock the door
+    - unlock the door
+    - unlock door
 - intent: fan_on
   examples: |
     - I want to turn on the fan
@@ -154,6 +166,9 @@ nlu:
     - Can you turn off the fan?
     - Fan off
     - Please turn off the fan
+    - fan off
+    - off Fan
+    - turn the fan off
 - intent: weather
   examples: |
     - I want to check the weather
@@ -179,6 +194,9 @@ nlu:
     - Please set a timer for minutes
     - Timer minutes
     - Can you set a timer for minutes?
+    - Set a Timer
+    - set a timer
+    - timer set
 - intent: timer_minutes_user_resp
   examples: |
     - 10

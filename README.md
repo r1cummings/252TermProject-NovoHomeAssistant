@@ -56,9 +56,17 @@
    Bot will respond: `What channel would you like me to change it to?`
    **Type: `ESPN`**
    Bot will respond: `The TV is now set for ESPN!`
+   <br>
+
+4) Set a timer
 
 
-
+#### Single way conversations:
+1) Crypto on
+2) vacuum off
+3) Pool on
+4) what time is it
+5) Are you a robot? (BONUS)
 
 
 ## Full List of Commands: 
