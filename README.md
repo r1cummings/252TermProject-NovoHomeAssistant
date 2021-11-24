@@ -22,40 +22,40 @@
 
 ## Suggested Conversation Flows / Story Lines:
 ##### *Multi-Turn conversations:*
-1) **Type: `Hi`**
-   Bot will respond: `Hi! How can I help you?`
-   **Type: `Turn the lights on`**
-   Bot will respond: `Turning lights on!`
-   **Type: `Change the color of the lights`**
-   Bot will respond: `What color do you want the lights to be?`
-   **Type: `Red`**
-   Bot will respond: `The lights are now Red!`
+1) **Type: `Hi`** \
+   Bot will respond: `Hi! How can I help you?` \
+   **Type: `Turn the lights on`** \
+   Bot will respond: `Turning lights on!` \
+   **Type: `Change the color of the lights`** \
+   Bot will respond: `What color do you want the lights to be?` \
+   **Type: `Red`** \
+   Bot will respond: `The lights are now Red!` \
    
    <br>
 
-2) **Type: `Hi`**
-   Bot will respond: `Hi! How can I help you?`
-   **Type: `Add to my shopping list`**
-   Bot will respond: `Okay, what would you like to add to your shopping list?`
-   **Type: `Steak`**
-   Bot will respond: `Okay, I'll add Steak to your list.`
-   **Type: `How many items are on my shopping list?`**
-   Bot will respond: `There are 1 item(s) on your shopping list.`
-   **Type: `Add to my shopping list`**
-   Bot will respond: `Okay, what would you like to add to your shopping list?`
-   **Type: `Chicken`**
+2) **Type: `Hi`** \
+   Bot will respond: `Hi! How can I help you?` \
+   **Type: `Add to my shopping list`** \
+   Bot will respond: `Okay, what would you like to add to your shopping list?` \
+   **Type: `Steak`** \
+   Bot will respond: `Okay, I'll add Steak to your list.` \
+   **Type: `How many items are on my shopping list?`** \
+   Bot will respond: `There are 1 item(s) on your shopping list.` \
+   **Type: `Add to my shopping list`** \
+   Bot will respond: `Okay, what would you like to add to your shopping list?` \
+   **Type: `Chicken`** \
    Bot will respond: `Okay, I'll add Chicken to your list.`
-   **Type: `How many items are on my shopping list?`**
-   Bot will respond: `There are 2 item(s) on your shopping list.`
+   **Type: `How many items are on my shopping list?`** \
+   Bot will respond: `There are 2 item(s) on your shopping list.` \
     <br>
-3) **Type: `Hi`**
-   Bot will respond: `Hi! How can I help you?`
-   **Type: `TV on`**
-   Bot will respond: `The TV is now on. Enjoy!`
-   **Type: `Change the channel on the tv`**
-   Bot will respond: `What channel would you like me to change it to?`
-   **Type: `ESPN`**
-   Bot will respond: `The TV is now set for ESPN!`
+3) **Type: `Hi`** \
+   Bot will respond: `Hi! How can I help you?` \
+   **Type: `TV on`** \
+   Bot will respond: `The TV is now on. Enjoy!` \
+   **Type: `Change the channel on the tv`** \
+   Bot will respond: `What channel would you like me to change it to?` \
+   **Type: `ESPN`** \
+   Bot will respond: `The TV is now set for ESPN!` \
    <br>
 
 4) Set a timer
