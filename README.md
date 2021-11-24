@@ -29,7 +29,7 @@
    **Type: `Change the color of the lights`** \
    Bot will respond: `What color do you want the lights to be?` \
    **Type: `Red`** \
-   Bot will respond: `The lights are now Red!` \
+   Bot will respond: `The lights are now Red!` 
    
    <br>
 
@@ -61,7 +61,7 @@
 4) Set a timer
 
 
-#### Single way conversations:
+##### *Single way conversations:*
 1) Crypto on
 2) vacuum off
 3) Pool on
