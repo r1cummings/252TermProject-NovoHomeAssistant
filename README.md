@@ -21,7 +21,7 @@
 ![shopping_list_example](https://github.com/r1cummings/252TermProject-NovoHomeAssistant/blob/main/references/shopping_list_example.gif)
 
 ## Suggested Conversation Flows / Story Lines:
-##### *Multi-Turn conversations:*
+#### *Multi-Turn conversations:*
 1) **Type: `Hi`** \
    Bot will respond: `Hi! How can I help you?` \
    **Type: `Turn the lights on`** \
@@ -67,7 +67,7 @@
 
 
 
-##### *Single way conversations:*
+#### *Single way conversations:*
 1) 
    **Type: `Hi`** \
    Bot will respond: `Hi! How can I help you?` \
