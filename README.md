@@ -44,7 +44,7 @@
    **Type: `Add to my shopping list`** \
    Bot will respond: `Okay, what would you like to add to your shopping list?` \
    **Type: `Chicken`** \
-   Bot will respond: `Okay, I'll add Chicken to your list.`
+   Bot will respond: `Okay, I'll add Chicken to your list.` \
    **Type: `How many items are on my shopping list?`** \
    Bot will respond: `There are 2 item(s) on your shopping list.` \
     <br>
@@ -58,15 +58,57 @@
    Bot will respond: `The TV is now set for ESPN!` \
    <br>
 
-4) Set a timer
+4) **Type: `Hi`** \
+   Bot will respond: `Hi! How can I help you?` \
+   **Type: `Set a timer`** \
+   Bot will respond: `How long would you like me to set the timer for?` \
+   **Type: `10 minutes `** \
+   Bot will respond: `10 minutes and counting!`
+
 
 
 ##### *Single way conversations:*
-1) Crypto on
-2) vacuum off
-3) Pool on
-4) what time is it
-5) Are you a robot? (BONUS)
+1) 
+   **Type: `Hi`** \
+   Bot will respond: `Hi! How can I help you?` \
+   **Type: `Turn the crypto miners on`** \
+   Bot will respond: `The crypto miners are now on!` \
+    <br>
+2) 
+   **Type: `Hi`** \
+   Bot will respond: `Hi! How can I help you?` \
+   **Type: `Tell the vacuum to go home`** \
+   Bot will respond: `The vacuum has stopped and is returning to it's charging station.` \
+    <br>
+3) 
+   **Type: `Hi`** \
+   Bot will respond: `Hi! How can I help you?` \
+   **Type: `Turn the pool heater on`** \
+   Bot will respond: `The pool heater is now on. Please wait about 20 minutes for it to be fully warmed up!` \
+    <br>
+4) 
+   **Type: `Hi`** \
+   Bot will respond: `Hi! How can I help you?` \
+   **Type: `How long is my drive to work?`** \
+   Bot will respond: `Your drive to work will take about 35 minutes, with slight traffic on Palmdale Blvd adding 3 minutes to your drive.` \
+    <br>
+5) 
+   **Type: `Hi`** \
+   Bot will respond: `Hi! How can I help you?` \
+   **Type: `What time is it?`** \
+   Bot will respond with current date and time. \
+    <br>
+6) 
+   **Type: `Hi`** \
+   Bot will respond: `Hi! How can I help you?` \
+   **Type: `Feed the dogs`** \
+   Bot will respond: `Okay, I'll feed the dogs.` 
+
+###### ***BONUS***
+   **Type: `Hi`** \
+   Bot will respond: `Hi! How can I help you?` \
+   **Type: `Are you a robot?`** \
+   Bot will respond: `Of course not! I'm definitely a human. Beep Beep Boop. Umm, sorry.`
 
 
 ## Full List of Commands: 
