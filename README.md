@@ -20,7 +20,7 @@
 
 ![shopping_list_example](https://github.com/r1cummings/252TermProject-NovoHomeAssistant/blob/main/references/shopping_list_example.gif)
 
-## Suggested Conversation Flows / Story Lines:
+## Suggested Conversation Flows / Story Lines: :bulb:
 #### *Multi-Turn conversations:*
 1) **Type: `Hi`** \
    Bot will respond: `Hi! How can I help you?` \
@@ -111,9 +111,9 @@
    Bot will respond: `Of course not! I'm definitely a human. Beep Beep Boop. Umm, sorry.`
 
 
-## Full List of Commands: 
+## Full List of Commands: :writing_hand:
 ###### *Ellipsis(...) here is representing phrases that are along the lines of what is being shown.*
-###### *Multi turn conversations are marked with an exclamation (:exclamation: )*
+###### *Multi turn conversations are marked with an exclamation (:exclamation:)*
 
 `Alarm Set`:
 - "Turn on the alarm"
@@ -287,6 +287,6 @@
 - "Tell me the time"
 - ...
 
-## Bonus Command(s):
+## Bonus Command(s): :robot:
 
 - `Are you a robot?`
