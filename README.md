@@ -145,9 +145,9 @@
 - "Lights off"
 - ...
 
-`Change Light color`:
-- "I want to change the color of the lights" :exclamation:
-- "Change light color" :exclamation:
+`Change Light color`: :exclamation:
+- "I want to change the color of the lights"
+- "Change light color"
 - ...
 
 `Vacuum on`:
@@ -223,7 +223,7 @@
 - "How long is my drive to work?"
 - ...
 
-`Timer`:
+`Timer`: :exclamation:
 - "Please set a timer"
 - "Set a timer"
 - ...
@@ -267,15 +267,18 @@
 `TV off`:
 - "Turn off the tv"
 - "TV off"
-- "Change the channel on the tv" :exclamation:
 - ...
 
-`TV Change Channel`:
-- "Change the channel on the tv" :exclamation:
+`TV Change Channel`: :exclamation:
+- "Change the channel on the tv"
 - ...
 
-`Shopping`:
-- "Add to my shopping list" :exclamation:
+`Add to Shopping List`: :exclamation:
+- "Add to my shopping list"
+- "How many items are on my shopping list?"
+- ...
+
+`Check Shopping List`:
 - "How many items are on my shopping list?"
 - ...
 
