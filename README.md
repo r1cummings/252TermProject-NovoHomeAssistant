@@ -2,7 +2,7 @@
 
 ## Installation: :computer:
 1. Clone my repo
-2. Be sure to have **Python** (`brew install python`), **Rasa** (`pip install rasa[full]`), and **Keras Tensorflow** installed (`pip install tensorflow`)
+2. Be sure to have **Python** (`brew install python`), **Rasa 2.8** (`pip install rasa==2.8.12`), and **Keras Tensorflow** installed (`pip install tensorflow`)
 3. Navigate (`cd`) to the cloned repository.
 4. Run `rasa run actions` and leave this running.
 5. Open a new terminal window and run `rasa shell`
