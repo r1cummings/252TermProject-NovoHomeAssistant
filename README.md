@@ -2,7 +2,7 @@
 
 ## Installation: :computer:
 1. Clone my repo
-2. Be sure to have `Rasa` installed. This is an especially important step. For installation instructions on doing that, follow the steps posted by Rasa here: https://rasa.com/docs/rasa/installation/. On my machine, I created Rasa with:
+2. Be sure to have `Rasa` installed. This is an especially important step. For installation instructions on doing that, follow the steps posted by Rasa here: https://rasa.com/docs/rasa/installation/. On my machine, I created Rasa with: \
 `Rasa Version      :         2.8.12` \
 `Minimum Compatible Version: 2.8.9` \
 `Rasa SDK Version  :         2.8.2` \
