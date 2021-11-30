@@ -10,7 +10,7 @@
 `Python Version    :         3.7.3` \
 `Operating System  :         Darwin-21.1.0-x86_64-i386-64bit` \
 `Python Path       :         /Users/ryan/anaconda3/bin/python` 
-
+Be sure to have the same versions as I or Rasa may not run.
 3. Navigate (`cd`) to the cloned repository.
 4. Run `rasa run actions` and leave this running.
 5. Open a new terminal window and run `rasa shell`
@@ -298,3 +298,11 @@
 ## Bonus Command(s): :robot:
 
 - `Are you a robot?`
+
+ 
+## Potential Issues: :flushed:
+If you are experiencing issues with running my Rasa bot, try these 2 solutions and then restart and run it again. 
+1) https://forum.rasa.com/t/asyncio-task-exception-was-never-retrieved-error-rasa-2-1-0/39328/2
+2) https://stackoverflow.com/questions/58686979/i-tried-to-run-rasa-shell-i-am-getting-error-asyncio-task-exception-was-never-re
+
+There is an open issue in which one of my users was experiencing an asyncio error. This is currently an open issue that does not have a solution yet. See the thread here: https://github.com/RasaHQ/rasa/issues/7828
