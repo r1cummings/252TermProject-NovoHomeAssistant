@@ -2,15 +2,19 @@
 
 ## Installation: :computer:
 1. Clone my repo
-2. Be sure to have `Rasa` installed. This is an especially important step. For installation instructions on doing that, follow the steps posted by Rasa here: https://rasa.com/docs/rasa/installation/. On my machine, I created Rasa with: \
-`Rasa Version      :         2.8.12` \
-`Minimum Compatible Version: 2.8.9` \
-`Rasa SDK Version  :         2.8.2` \
-`Rasa X Version    :         0.42.4` \
-`Python Version    :         3.7.3` \
-`Operating System  :         Darwin-21.1.0-x86_64-i386-64bit` \
-`Python Path       :         /Users/ryan/anaconda3/bin/python` 
-Be sure to have the same versions as I or Rasa may not run.
+2. Be sure to have `Rasa` installed. This is an especially important step. For installation instructions on doing that, follow the steps posted by Rasa here: https://rasa.com/docs/rasa/installation/. 
+   \
+   **Alternatively, you can run `pip install -r requirements.txt`**
+ \
+   Specifically, on my machine I created Rasa with: \
+   `Rasa Version      :         2.8.12` \
+   `Minimum Compatible Version: 2.8.9` \
+   `Rasa SDK Version  :         2.8.2` \
+   `Rasa X Version    :         0.42.4` \
+   `Python Version    :         3.7.3` \
+   `Operating System  :         Darwin-21.1.0-x86_64-i386-64bit` \
+   `Python Path       :         /Users/ryan/anaconda3/bin/python` 
+
 3. Navigate (`cd`) to the cloned repository.
 4. Run `rasa run actions` and leave this running.
 5. Open a new terminal window and run `rasa shell`
