@@ -4,7 +4,9 @@
 1. Clone my repo
 2. Be sure to have `Rasa` installed. This is an especially important step. For installation instructions on doing that, follow the steps posted by Rasa here: https://rasa.com/docs/rasa/installation/. 
    \
+   \
    **Alternatively, you can run `pip install -r requirements.txt`**
+   \
  \
    Specifically, on my machine I created Rasa with: \
    `Rasa Version      :         2.8.12` \
